@@ -1,0 +1,55 @@
+.bicicleta-lista{
+  padding-top: 60px;
+  margin-bottom: 120px;
+}
+
+.bicicleta-lista h2{
+  margin-bottom: 40px;
+
+}
+.bicicleta-lista ul{
+  display: flex;
+  gap: 40px;
+  padding: 0 20px 10px 10px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  /* barra de scroll */
+  overflow-x: auto;
+}
+
+ #bicicleta .bicicleta-lista ul{
+  padding: 0 0px 20px 0px;
+}
+/* .bicicleta-lista li {
+   min-width: 280px; 
+   flex: 1; 
+} */
+.bicicleta-lista a{
+  display: block;
+}
+
+.bicicleta-lista img{
+  margin-bottom: 16px;
+}
+.bicicleta-lista h3 {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+ gap: 10px;
+}
+
+.bicicleta-lista a:hover h3::before{
+  width: 24px;
+}
+.bicicleta-lista h3::before{
+  content: "";
+  display: inline-block;
+  transition:  0.2s;
+  height: 8px;
+  width: 12px;
+  background-color: var(--cor-p1);
+}
+.bicicleta-lista li span{
+  padding-left: 20px;
+}

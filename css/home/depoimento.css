@@ -1,0 +1,66 @@
+.depoimento {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--cor-p1);
+  overflow: hidden;
+}
+
+.depoimento img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0px;
+
+}
+
+.depoimento-conteudo {
+  padding: 40px 40px 80px 80px;
+  /*  vai mudar o comportamento das tags dentor do container */
+  align-self: end;
+  background: url("../../img/dec/bottom-right-p.svg")
+  no-repeat 40px bottom 40px right;
+
+}
+.depoimento-conteudo p {
+  font-family:  "Merriweather", serif;
+  font-style: italic;
+  font-weight: 900;
+  max-width: 32ch;
+  margin-bottom: 4rem;
+  position: relative;
+}
+.depoimento p::before {
+  /* position absolute tira do fluxo do elemento pai P */
+  content: "“";
+  position: absolute;
+  left: -50px;
+  top: -20px;
+  font-size: 5rem;
+  color: var(--cor-p2);
+}
+.depoimento p::after {
+  content: "”";
+  position: absolute;
+
+  font-size: 5rem;
+  color: var(--cor-p2);
+}
+
+@media (max-width: 800px){
+  .depoimento {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .depoimento-conteudo{
+    padding: 40px 20px;
+    align-items: center;
+  }
+  .depoimento img {
+    max-width: 200px;
+  }
+}
+@media (min-width: 1200px) {
+  .depoimento img {
+    max-height: 520px;
+  }
+}
