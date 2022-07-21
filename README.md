@@ -1,6 +1,6 @@
 # Bikcraft 🚴
 <p align="center">
-	[![Bikcraft]( https://i.imgur.com/OKzv6sR.png "Clique para acessar o projeto")](https://bikcra.netlify.app "Clique para acessar o projeto")   
+[![Bikcraft]( https://i.imgur.com/mci9f8c.png "Clique para acessar o projeto")](https://bikcra.netlify.app "Clique para acessar o projeto")   
 </p>
 
 ## 📖 Sobre   
