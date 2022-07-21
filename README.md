@@ -1,6 +1,7 @@
 # Bikcraft 🚴
 <p align="center">
 	<img src="https://i.imgur.com/OKzv6sR.png" alt="Bikcraft" title="Bikcraft">
+	[![Bikcraft]("https://i.imgur.com/OKzv6sR.png "Clique para acessar o projeto")]https://bikcra.netlify.app "Clique para acessar o projeto")   
 </p>
 
 ## 📖 Sobre   
@@ -14,9 +15,9 @@ O projeto **Bikcraft** foi desenvolvido durante o curso de **HTML e CSS Completo
 ---
 
 ## 🖥️ Demonstração
-[![Bikcraft]( https://i.imgur.com/mci9f8c.png "Clique para acessar o projeto")](https://sad-mclean-e40e12.netlify.app "Clique para acessar o projeto")   
+[![Bikcraft]( https://i.imgur.com/mci9f8c.png "Clique para acessar o projeto")](https://bikcra.netlify.app"Clique para acessar o projeto")   
 
-Você pode acessar o projeto clicando [aqui](https://sad-mclean-e40e12.netlify.app).
+Você pode acessar o projeto clicando [aqui](https://bikcra.netlify.app).
 
 ---
 
